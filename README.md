@@ -1,6 +1,6 @@
 # API Testing Assessment using C# MS automation framework
 
-Automate Cat Facts Ninja API using C# automation framework to ensure that the API is hit 10 times and only unique facts are stored using a list. While handling exceptions.
+Automate Cat Facts Ninja API using C# automation framework to ensure that the API is hit 10 times and only unique facts are stored using a hashmap. While handling exceptions.
 
 ## Prerequisites to run test locally
 
@@ -41,7 +41,7 @@ Automate Cat Facts Ninja API using C# automation framework to ensure that the AP
 The test:
 - Make HTTP GET request to https://catfact.ninja/fact 10 times.
 - Validate API HTTP response status is valid (200) or not.
-- Ensure facts are unique and store in a list.
+- Ensure facts are unique and store in a hashmap.
 
 ## Code Refractoring Items
 
